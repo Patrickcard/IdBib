@@ -1,0 +1,28 @@
+body { font-family: 
+    sans-serif; 
+    padding: 20px;
+    background-image: url(./docs/Backgroud.jpg);
+    background-size: contain;
+    -webkit-text-stroke-color: #ffff;
+}
+h1 {
+    color: black; /* Cor do texto */
+    text-shadow:
+        -1px -1px 0 white, /* Sombra superior esquerda */
+        1px -1px 0 white,  /* Sombra superior direita */
+        -1px 1px 0 white,  /* Sombra inferior esquerda */
+        1px 1px 0 white;   /* Sombra inferior direita */
+}
+label {
+    color: black; /* Cor do texto */
+    text-shadow:
+        -0.5px -0.5px 0 white, /* Sombra superior esquerda */
+        0.5px -0.5px 0 white,  /* Sombra superior direita */
+        -0.5px 0.5px 0 white,  /* Sombra inferior esquerda */
+        0.5px 0.5px 0 white;   /* Sombra inferior direita */
+
+    font-size: x-large;
+}
+
+canvas { border: 1px solid #ccc; display: block; margin-top: 20px; cursor: move; }
+input { margin: 10px 0; }
